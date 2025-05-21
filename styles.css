@@ -8,7 +8,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 5vw;
+  gap: 2.5vw;
   margin-left: 5vw;
 }
 
