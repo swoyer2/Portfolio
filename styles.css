@@ -1,0 +1,102 @@
+body {
+  padding: 5vw;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  margin-left: 5vw;
+}
+
+.header-section {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-pic {
+  width: 15vw;
+  border-radius: 8px;
+  min-width: 200px;
+  height: auto;
+}
+
+.text-info h1 {
+  margin: 0 0 0.5rem;
+}
+
+.icons a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #eda031;
+}
+
+.experience-section {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.experience-section aside {
+  color: #99a;
+  min-width: 180px;
+}
+
+.experience-section a {
+  color: #eda031;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.education-section {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.education-section aside {
+  color: #99a;
+  min-width: 180px;
+}
+
+.education-section a {
+  color: #eda031;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.projects-list {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.projects-section {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.projects-section aside {
+  color: #99a;
+  min-width: 180px;
+}
+
+.projects-section a {
+  color: #eda031;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
