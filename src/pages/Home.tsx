@@ -9,7 +9,15 @@ const Home: React.FC = () => {
         </p>
 
         <p className="lead mx-auto mb-4">
-          I develop software for the random ideas I come up with.
+          I develop software for the random ideas I come up with. I currently work for {" "}
+          <a
+            href="https://www.visiostack.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary text-decoration-none"
+          >
+            Visiostack🚄</a>
+          as a backend developer.
         </p>
 
        <p className="lead mx-auto mb-4">
