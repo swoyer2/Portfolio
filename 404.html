@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.location.replace(
+        '/' + window.location.pathname.split('/')[1] +
+        '/?path=/' + window.location.pathname.slice(1) +
+        window.location.search +
+        window.location.hash
+      );
+    </script>
+  </head>
+</html>
