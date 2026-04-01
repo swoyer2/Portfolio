@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC } from 'react'
 
 interface ProjectCardProps {
   title: string;
@@ -35,7 +35,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .project-card {
           position: relative;
           border: 0;

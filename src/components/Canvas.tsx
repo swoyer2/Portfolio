@@ -135,7 +135,7 @@ const Canvas = ({ style }: { style?: React.CSSProperties }) => {
     window.addEventListener("mousemove", handleMouseMove);
 
     // Debounced resize handler
-    let resizeTimeout: NodeJS.Timeout;
+    let resizeTimeout: ReturnType<typeof setTimeout>;
     const handleResize = () => {
       // Quick black fill during resize
       ctx.fillStyle = "#000";

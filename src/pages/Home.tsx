@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             rel="noopener noreferrer"
             className="text-primary text-decoration-none"
           >
-            Visiostack🚄</a>
+            Visiostack 🚄 </a>
           as a backend developer.
         </p>
 
