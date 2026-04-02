@@ -2,12 +2,8 @@
 <html>
   <head>
     <script>
-      window.location.replace(
-        '/' + window.location.pathname.split('/')[1] +
-        '/?path=/' + window.location.pathname.slice(1) +
-        window.location.search +
-        window.location.hash
-      );
+      sessionStorage.redirect = location.href;
     </script>
+    <meta http-equiv="refresh" content="0;URL='/Portfolio/'">
   </head>
 </html>
