@@ -1,24 +1,27 @@
 import type { FC } from 'react';
 import ProjectCard from '../components/ProjectCard';
+import manimChess from '../assets/manim_chess.gif';
+import discordCube from '../assets/discord_rubiks_cube.gif';
+import regression from '../assets/regression.gif';
 
 const Projects: FC = () => {
   const projects = [
     {
       title: 'Manim Chess',
       description: 'A plugin for the popular animation library Manim that enables beautiful chess animations.',
-      imageUrl: '/manim_chess.gif',
+      imageUrl: manimChess,
       githubUrl: 'https://github.com/swoyer2/manim_chess',
     },
     {
       title: 'Discord Rubik\'s Cube Bot',
       description: 'A Discord bot that allows users to interact with a virtual Rubik\'s Cube.',
-      imageUrl: '/discord_rubiks_cube.gif',
+      imageUrl: discordCube,
       githubUrl: 'https://github.com/swoyer2/Discord-Rubiks-Cube',
     },
     {
       title: 'Regression Video Explainer',
       description: 'A video about regression and how it can be used to make predicitions.',
-      imageUrl: '/regression.gif',
+      imageUrl: regression,
       githubUrl: 'https://github.com/swoyer2/Regression-Video-Code',
     },
   ];

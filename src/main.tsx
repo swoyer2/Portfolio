@@ -10,7 +10,7 @@ ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 ).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
